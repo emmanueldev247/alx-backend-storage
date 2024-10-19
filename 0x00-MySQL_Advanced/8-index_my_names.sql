@@ -24,3 +24,5 @@ BEGIN
 	SET NEW.first_letter = LEFT(NEW.name, 1);
 END; //
 DELIMITER ;
+
+CREATE INDEX idx_name_first ON names (first_letter);
