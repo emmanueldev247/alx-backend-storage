@@ -2,7 +2,7 @@
 """Function that inserts a new document in a collection based on `kwargs`"""
 
 
-def def insert_school(mongo_collection, **kwargs):
+def insert_school(mongo_collection, **kwargs):
     """
         Inserts a school document into the specified MongoDB collection.
 
